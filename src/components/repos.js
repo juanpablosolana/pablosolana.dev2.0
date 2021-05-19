@@ -42,7 +42,14 @@ function Datos() {
         })}
       </ul>
       <div className="mt-8 text-center">
-        <a href="https://github.com/juanpablosolana" className="btn" target="_blank" rel="noopener noreferrer">Ver en GitHub ({reposCount})</a>
+        <a
+          href="https://github.com/juanpablosolana"
+          className="btn-reverse"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver en GitHub ({reposCount})
+        </a>
       </div>
     </div>
   )

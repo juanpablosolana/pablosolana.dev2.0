@@ -26,7 +26,7 @@ function Datos() {
     fetchRepos()
   }, [])
   return (
-    <div className=" min-h-screen max-h-screen container mx-auto p-12 max-w-6xl ">
+    <div className=" min-h-screen max-h-screen container mx-auto p-12 max-w-6xl " id="proyectos">
       <div className="text-center">
         <h2 className="text-4xl font-bold">
           Parece magia, funciona con código.

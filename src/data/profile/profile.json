@@ -1,0 +1,62 @@
+{
+  "data": {
+    "email": "juanpablosolana@gmail.com",
+    "username": "juanpablosolana",
+    "certificates": [],
+    "articles": [],
+    "courses": [
+      {
+        "title": "Curso esencial de HTML y CSS",
+        "progress": "100",
+        "url": "https://leonidasesteban.com/cursos/html-css-fundamentos"
+      },
+       {
+        "title": "Curso de JavaScript Avanzado",
+        "progress": "100",
+        "url": "https://leonidasesteban.com/cursos/javascript-react"
+      },
+      {
+        "title": "Taller: El portafolio de Jaume",
+        "progress": "100",
+        "url": "https://leonidasesteban.com/cursos/portafolio-jaume"
+      },
+       {
+        "title": "Curso de Figma para Frontends",
+        "progress": "100",
+        "url": "https://leonidasesteban.com/cursos/figma-frontends"
+      },
+      {
+        "title": "Curso de TypeScript",
+        "progress": "100",
+        "url": "http://codigofacilito.com/courses/typescript"
+      },
+      {
+        "title": "Curso para crear mi primera página web con Flutter",
+        "progress": "100",
+        "url": "http://codigofacilito.com/courses/flutter-web"
+      },
+      {
+        "title": "Curso a fondo de Vuex",
+        "progress": "100",
+        "url": "http://codigofacilito.com/courses/vuex"
+      },
+      {
+        "title": "Curso de noSQL con MongoDB",
+        "progress": "100",
+        "url": "http://codigofacilito.com/courses/nosql-moongodb"
+      },
+      {
+        "title": "Crea un sitio personal con Gatsby",
+        "progress": "100",
+        "url": "http://codigofacilito.com/courses/sitio-persional-gatsby"
+      },
+      {
+        "title": "Curso de Fundamentos de React",
+        "progress": "100",
+        "url": "http://codigofacilito.com/courses/react-intro-gratis"
+      }
+    ],
+    "finished_courses": []
+  },
+  "errors": []
+}

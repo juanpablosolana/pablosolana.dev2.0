@@ -5,11 +5,13 @@ let myRepo
 
 function Datos() {
   const [repos, setRepos] = useState([])
+  const [reposCount, setReposCount] = useState([])
   useEffect(() => {
     const data = sessionStorage.getItem("repos")
 
      if(data){
         myRepo = JSON.parse(data)
+        setReposCount(myRepo.length)
         return setRepos(myRepo)
      }
     async function fetchRepos() {
@@ -18,6 +20,7 @@ function Datos() {
         console.err(err)
       })
       sessionStorage.setItem("repos",JSON.stringify(myRepo))
+      setReposCount(myRepo.length)
       setRepos(myRepo)
     }
     fetchRepos()
@@ -38,6 +41,9 @@ function Datos() {
           return <Repo repo={repo} key={repo.id} />
         })}
       </ul>
+      <div className="mt-8 text-center">
+        <a href="https://github.com/juanpablosolana" className="btn" target="_blank" rel="noopener noreferrer">Ver en GitHub ({reposCount})</a>
+      </div>
     </div>
   )
 }

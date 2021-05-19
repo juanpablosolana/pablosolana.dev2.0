@@ -12,3 +12,15 @@ textarea {
 .btn-reverse{
   @apply bg-black text-yellow-500 font-bold rounded py-2 px-8
 }
+
+.repos-list{
+  columns:2;
+  -moz-columns: 2;
+  @apply p-4;
+  column-rule: 1px solid red;
+}
+
+.repos-list {
+  break-inside: avoid-column;
+
+}

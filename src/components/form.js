@@ -1,7 +1,7 @@
 import React from 'react'
 const menu = ()=>(
   <form className="mt-16 text-center">
-    <label for ="contact"className="block text-yellow-500 text-sm font-bold mb-2">
+    <label htmlFor ="contact"className="block text-yellow-500 text-sm font-bold mb-2">
       Contactame sobre esas ideas que quieres hacer realidad
     </label>
     <div className="flex shadown rounded bg-white border p-2">

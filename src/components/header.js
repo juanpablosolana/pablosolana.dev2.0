@@ -3,9 +3,9 @@ import Menu from './menu'
 import profile from '../img/profile.png'
 import Form from './form'
 const header = ()=>(
-  <header className="bg-black min-h-screen max-h-screen">
+  <header className="bg-black min-h-screen " id="hola">
    <Menu/>
-    <div className="container mx-auto p-12 max-w-6xl ">
+    <div className="container mx-auto max-w-6xl ">
       <div className="flex justify-center items-center">
         <div className="flex-1">
         <p className="text-white text-7xl font-bold">¡Hola a todos!</p>

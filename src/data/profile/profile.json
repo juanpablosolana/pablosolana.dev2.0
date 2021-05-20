@@ -2,9 +2,45 @@
   "data": {
     "email": "juanpablosolana@gmail.com",
     "username": "juanpablosolana",
-    "certificates": [],
+    "certificates": [
+      {
+        "title": "React Summit Remote Edition 2021",
+        "issuer": "GitNation",
+        "url": "https://certificate.page.link/NGtFLTLkehxKvR9x5"
+      },
+      {
+        "title": "NDG Linux Unhatched course in the Cisco Networking Academy.",
+        "issuer": "Network Development Group",
+        "url": "https://drive.google.com/file/d/1JaUzrEOO53OfzRQrcHobYX-p_TReFTXA/view?usp=sharing"
+      },
+      {
+        "title": "Scrum Foundation Professional Certificate (SFPC) – (Spanish)",
+        "issuer": "CertiProf",
+        "url": "https://www.youracclaim.com/badges/62faa69e-33be-4a06-b35d-b3f33112ffcc?source=linked_in_profile"
+      },
+      {
+        "title": "Fundamentos de marketing digital",
+        "issuer": "Google",
+        "url": "https://drive.google.com/file/d/0B9Z1TMBg7M4UYmMwTi0zcmdpQVE/view?usp=sharing"
+      },
+      {
+        "title": "Conceptos básicos de marketing digital",
+        "issuer": "Google",
+        "url": "https://drive.google.com/file/d/1CbfuyV2UIySm-w6VJVH88nz_r7imq9QZ/view?usp=sharing"
+      }
+    ],
     "articles": [],
     "courses": [
+       {
+        "title": "Curso gratis de ReactJS 2020 con clases en vivo",
+        "progress": "100",
+        "url": "https://midu.dev/curso-gratis-react-2020/"
+      },
+      {
+        "title": "Bootcamp Full Stack Gratis: Aprende Desarrollo Full Stack ⚡",
+        "progress": "100",
+        "url": "https://midu.dev/bootcamp-full-stack-gratis-2021/"
+      },
       {
         "title": "Curso esencial de HTML y CSS",
         "progress": "100",

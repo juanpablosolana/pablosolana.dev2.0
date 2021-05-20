@@ -28,4 +28,11 @@ textarea {
 .repos-list {
   break-inside: avoid-column;
 }
+.transparente{
+  background-color:rgba(0, 0, 0, 0.2)
+}
+
+.transparente5{
+  background-color:rgba(0, 0, 0, 0.5)
+}
 

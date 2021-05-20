@@ -4,92 +4,109 @@
     "username": "juanpablosolana",
     "certificates": [
       {
-        "title": "React Summit Remote Edition 2021",
+        "title": "React Summit Remote Edition 2021 ",
         "issuer": "GitNation",
-        "url": "https://certificate.page.link/NGtFLTLkehxKvR9x5"
+        "url": "https://certificate.page.link/NGtFLTLkehxKvR9x5",
+        "img":"https://media-exp1.licdn.com/dms/image/C4E0BAQFPGBlbXg4GPA/company-logo_100_100/0/1553094908725?e=1629331200&v=beta&t=nBxhfTJ9Hc5EEDqiwhG7Cs7eWh3mNNNmPXh2SFj5Ryk"
       },
       {
         "title": "NDG Linux Unhatched course in the Cisco Networking Academy.",
         "issuer": "Network Development Group",
-        "url": "https://drive.google.com/file/d/1JaUzrEOO53OfzRQrcHobYX-p_TReFTXA/view?usp=sharing"
+        "url": "https://drive.google.com/file/d/1JaUzrEOO53OfzRQrcHobYX-p_TReFTXA/view?usp=sharing",
+        "img":"https://media-exp1.licdn.com/dms/image/C4E0BAQHBq9_zTus0uw/company-logo_100_100/0/1583519288822?e=1629331200&v=beta&t=ZM5uugEHnyy8mvLvo1dFOeehQmd-JSKhkSqpVkC8qmU"
       },
       {
         "title": "Scrum Foundation Professional Certificate (SFPC) – (Spanish)",
         "issuer": "CertiProf",
-        "url": "https://www.youracclaim.com/badges/62faa69e-33be-4a06-b35d-b3f33112ffcc?source=linked_in_profile"
+        "url": "https://www.youracclaim.com/badges/62faa69e-33be-4a06-b35d-b3f33112ffcc?source=linked_in_profile",
+        "img":"https://media-exp1.licdn.com/dms/image/C4D0BAQGqXl2RWLuR5A/company-logo_100_100/0/1609950615059?e=1629331200&v=beta&t=7sr4ApuFehnSkueY5Yr1nkoVshluQCGOcdHrnhq6TKk"
       },
       {
         "title": "Fundamentos de marketing digital",
         "issuer": "Google",
-        "url": "https://drive.google.com/file/d/0B9Z1TMBg7M4UYmMwTi0zcmdpQVE/view?usp=sharing"
+        "url": "https://drive.google.com/file/d/0B9Z1TMBg7M4UYmMwTi0zcmdpQVE/view?usp=sharing",
+        "img":"https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_100_100/0/1519856215226?e=1629331200&v=beta&t=Xuz_3b8cN2hCV3ooqnF9gQ1fQFTkwHE2IPLNZuhhQ9I"
       },
       {
         "title": "Conceptos básicos de marketing digital",
         "issuer": "Google",
-        "url": "https://drive.google.com/file/d/1CbfuyV2UIySm-w6VJVH88nz_r7imq9QZ/view?usp=sharing"
+        "url": "https://drive.google.com/file/d/1CbfuyV2UIySm-w6VJVH88nz_r7imq9QZ/view?usp=sharing",
+        "img":"https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_100_100/0/1519856215226?e=1629331200&v=beta&t=Xuz_3b8cN2hCV3ooqnF9gQ1fQFTkwHE2IPLNZuhhQ9I"
       }
     ],
     "articles": [],
     "courses": [
        {
-        "title": "Curso gratis de ReactJS 2020 con clases en vivo",
+        "title": "Curso gratis de ReactJS 🔥",
         "progress": "100",
-        "url": "https://midu.dev/curso-gratis-react-2020/"
+        "url": "https://midu.dev/curso-gratis-react-2020/",
+        "author":"Miguel Ángel Durán"
       },
       {
-        "title": "Bootcamp Full Stack Gratis: Aprende Desarrollo Full Stack ⚡",
+        "title": "Bootcamp Full Stack Gratis ⚡",
         "progress": "100",
-        "url": "https://midu.dev/bootcamp-full-stack-gratis-2021/"
+        "url": "https://midu.dev/bootcamp-full-stack-gratis-2021/",
+        "author":"Miguel Ángel Durán"
       },
       {
-        "title": "Curso esencial de HTML y CSS",
+        "title": "Curso esencial de HTML y CSS 🌀",
         "progress": "100",
-        "url": "https://leonidasesteban.com/cursos/html-css-fundamentos"
+        "url": "https://leonidasesteban.com/cursos/html-css-fundamentos",
+        "author":"Leonidas Esteban"
       },
        {
-        "title": "Curso de JavaScript Avanzado",
+        "title": "Curso de JavaScript Avanzado 🚀",
         "progress": "100",
-        "url": "https://leonidasesteban.com/cursos/javascript-react"
+        "url": "https://leonidasesteban.com/cursos/javascript-react",
+        "author":"Leonidas Esteban"
       },
       {
-        "title": "Taller: El portafolio de Jaume",
+        "title": "Taller: El portafolio de Jaume 🔀",
         "progress": "100",
-        "url": "https://leonidasesteban.com/cursos/portafolio-jaume"
+        "url": "https://leonidasesteban.com/cursos/portafolio-jaume",
+        "author":"Leonidas Esteban"
       },
        {
-        "title": "Curso de Figma para Frontends",
+        "title": "Figma para Frontends 🧩",
         "progress": "100",
-        "url": "https://leonidasesteban.com/cursos/figma-frontends"
+        "url": "https://leonidasesteban.com/cursos/figma-frontends",
+        "author":"Leonidas Esteban"
       },
       {
-        "title": "Curso de TypeScript",
+        "title": "Curso de TypeScript 👷‍♀️",
         "progress": "100",
-        "url": "http://codigofacilito.com/courses/typescript"
+        "url": "http://codigofacilito.com/courses/typescript",
+        "author":"Código Facilito"
       },
       {
-        "title": "Curso para crear mi primera página web con Flutter",
+        "title": "Mi página web con Flutter 📅",
         "progress": "100",
-        "url": "http://codigofacilito.com/courses/flutter-web"
+        "url": "http://codigofacilito.com/courses/flutter-web",
+        "author":"Código Facilito"
       },
       {
-        "title": "Curso a fondo de Vuex",
+        "title": "Curso a fondo de Vuex 🦕",
         "progress": "100",
-        "url": "http://codigofacilito.com/courses/vuex"
+        "url": "http://codigofacilito.com/courses/vuex",
+        "author":"Código Facilito"
       },
       {
-        "title": "Curso de noSQL con MongoDB",
+        "title": "Curso de noSQL con MongoDB 🤩",
         "progress": "100",
-        "url": "http://codigofacilito.com/courses/nosql-moongodb"
+        "url": "http://codigofacilito.com/courses/nosql-moongodb",
+        "author":"Código Facilito"
       },
       {
-        "title": "Crea un sitio personal con Gatsby",
+        "title": "Crea un sitio personal con Gatsby 👨‍💻",
         "progress": "100",
-        "url": "http://codigofacilito.com/courses/sitio-persional-gatsby"
+        "url": "http://codigofacilito.com/courses/sitio-persional-gatsby",
+        "author":"Código Facilito"
       },
       {
-        "title": "Curso de Fundamentos de React",
+        "title": "Fundamentos de React 🎧",
         "progress": "100",
-        "url": "http://codigofacilito.com/courses/react-intro-gratis"
+        "url": "http://codigofacilito.com/courses/react-intro-gratis",
+        "author":"Código Facilito"
       }
     ],
     "finished_courses": []

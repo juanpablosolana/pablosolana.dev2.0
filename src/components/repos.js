@@ -12,7 +12,7 @@ function Datos() {
      if(data){
         myRepo = JSON.parse(data)
         setReposCount(myRepo.length)
-        myRepo=myRepo.slice(1,16)
+        myRepo=myRepo.slice(0, 14)
         return setRepos(myRepo)
      }
     async function fetchRepos() {
@@ -22,7 +22,7 @@ function Datos() {
       })
       sessionStorage.setItem("repos",JSON.stringify(myRepo))
       setReposCount(myRepo.length)
-      myRepo = myRepo.slice(1, 16)
+      myRepo = myRepo.slice(0, 14)
       setRepos(myRepo)
     }
     fetchRepos()

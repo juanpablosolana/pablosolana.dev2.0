@@ -29,10 +29,10 @@ function Certifiction(){
           <p className="p-4 ">Siempre aprendiendo, siempre practicando</p>
         </div>
 
-        <div className="grid grid-rows-2 grid-flow-col">
+        <div className="grid grid-rows-2 grid-flow-col mb-10">
           {data.profileJson.data.certificates.map(certificates => {
             return (
-              <div className="max-w-md w-full lg:flex pb-4">
+              <div className="max-w-md w-full lg:flex p-2 mb-4 bg-black rounded-b lg:rounded-b-none lg:rounded-r">
                 <div
                   className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
                   style={{
@@ -40,9 +40,9 @@ function Certifiction(){
                   }}
                   title="Imagen del certificado"
                 ></div>
-                <div className="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div className="bg-black rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                   <div className="mb-8">
-                    <div className="text-black font-bold text-xl mb-2">
+                    <div className="text-yellow-500 font-bold text-xl mb-2">
                       <a
                         href={certificates.url}
                         target="_blank"
@@ -60,7 +60,7 @@ function Certifiction(){
                     />
 
                     <div className="text-sm">
-                      <p class="text-black leading-none">
+                      <p class="text-white leading-none">
                         {certificates.issuer}
                       </p>
                     </div>

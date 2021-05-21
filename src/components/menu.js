@@ -28,7 +28,7 @@ const menu = () => (
         </li>
       </ul>
       <a
-        href="https://firebasestorage.googleapis.com/v0/b/pablosolana-fd61e.appspot.com/o/docs%2FJuan%20Pablo%20solana%20ortiz%20(2).pdf?alt=media&token=32ac8588-af76-4fe3-983c-e29f71fcaf4e"
+        href="https://firebasestorage.googleapis.com/v0/b/pablosolana-fd61e.appspot.com/o/docs%2FJuan%20Pablo%20Solana%20Ortiz%20JS.pdf?alt=media&token=1be1bf9a-b27f-4586-a7b2-de7e7c036b16"
         target="_blank"
         rel="noopener noreferrer"
         className="p-3 btn"

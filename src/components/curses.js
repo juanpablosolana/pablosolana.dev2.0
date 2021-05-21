@@ -2,19 +2,21 @@ import { useStaticQuery, graphql } from 'gatsby'
 import React from 'react'
 function Courses(){
  const data = useStaticQuery(graphql`
-    {
-      profileJson {
-        id
-        data {
-          courses {
-            url
-            title
-            author
-          }
-        }
-      }
-    }
-  `)
+   {
+     profileJson {
+       id
+       data {
+         courses {
+           url
+           title
+           author
+           twitter
+           twitterLink
+         }
+       }
+     }
+   }
+ `)
 // console.log(data)
 
   return (
@@ -39,10 +41,9 @@ function Courses(){
               return (
                 <div
                   key={courses.title}
-                  className="shadown p-8 bg-white mx-4 rounded my-4"
+                  className="shadown p-8 bg-gray-100 mx-4 rounded my-4 text-center"
                 >
-                  <h4 className="forn-bold p-2">{courses.title}</h4>
-                  <div className="text-center">
+                  <h4 className="font-bold p-2 ">{courses.title}</h4>
                     <span className="inline-block bg-yellow-500 p-2 rounded mb-0.5 bg-red-500 radius">
                       <a
                         href={courses.url}
@@ -52,7 +53,14 @@ function Courses(){
                         Ir al curso de {courses.author}
                       </a>
                     </span>
-                  </div>
+                    <a
+                      href={courses.twitterLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500"
+                    >
+                      Seguir {courses.twitter}
+                    </a>
                 </div>
               )
             })}

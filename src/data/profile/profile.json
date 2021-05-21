@@ -37,76 +37,100 @@
     "articles": [],
     "courses": [
        {
-        "title": "Curso gratis de ReactJS 🔥",
+        "title": "Curso Gratis de ReactJS 🔥",
         "progress": "100",
         "url": "https://midu.dev/curso-gratis-react-2020/",
-        "author":"Miguel Ángel Durán"
+        "author":"Miguel Ángel Durán",
+        "twitter":"@midudev",
+        "twitterLink":"https://twitter.com/midudev"
       },
       {
         "title": "Bootcamp Full Stack Gratis ⚡",
         "progress": "100",
         "url": "https://midu.dev/bootcamp-full-stack-gratis-2021/",
-        "author":"Miguel Ángel Durán"
+        "author":"Miguel Ángel Durán",
+        "twitter":"@midudev",
+        "twitterLink":"https://twitter.com/midudev"
       },
       {
-        "title": "Curso esencial de HTML y CSS 🌀",
+        "title": "Curso Esencial HTML y CSS 🌀",
         "progress": "100",
         "url": "https://leonidasesteban.com/cursos/html-css-fundamentos",
-        "author":"Leonidas Esteban"
+        "author":"Leonidas Esteban",
+        "twitter":"@LeonidasEsteban",
+        "twitterLink":"https://twitter.com/LeonidasEsteban"
       },
        {
-        "title": "Curso de JavaScript Avanzado 🚀",
+        "title": "Curso JavaScript Avanzado 🚀",
         "progress": "100",
         "url": "https://leonidasesteban.com/cursos/javascript-react",
-        "author":"Leonidas Esteban"
+        "author":"Leonidas Esteban",
+        "twitter":"@LeonidasEsteban",
+        "twitterLink":"https://twitter.com/LeonidasEsteban"
       },
       {
-        "title": "Taller: El portafolio de Jaume 🔀",
+        "title": "Taller: Portafolio de Jaume 🔀",
         "progress": "100",
         "url": "https://leonidasesteban.com/cursos/portafolio-jaume",
-        "author":"Leonidas Esteban"
+        "author":"Leonidas Esteban",
+        "twitter":"@LeonidasEsteban",
+        "twitterLink":"https://twitter.com/LeonidasEsteban"
       },
        {
-        "title": "Figma para Frontends 🧩",
+        "title": "Figma Para Frontends 🧩",
         "progress": "100",
         "url": "https://leonidasesteban.com/cursos/figma-frontends",
-        "author":"Leonidas Esteban"
+        "author":"Leonidas Esteban",
+        "twitter":"@LeonidasEsteban",
+        "twitterLink":"https://twitter.com/LeonidasEsteban"
       },
       {
         "title": "Curso de TypeScript 👷‍♀️",
         "progress": "100",
         "url": "http://codigofacilito.com/courses/typescript",
-        "author":"Código Facilito"
+        "author":"Código Facilito",
+        "twitter":"@codigofacilito",
+        "twitterLink":"https://twitter.com/codigofacilito"
       },
       {
         "title": "Mi página web con Flutter 📅",
         "progress": "100",
         "url": "http://codigofacilito.com/courses/flutter-web",
-        "author":"Código Facilito"
+        "author":"Código Facilito",
+        "twitter":"@codigofacilito",
+        "twitterLink":"https://twitter.com/codigofacilito"
       },
       {
         "title": "Curso a fondo de Vuex 🦕",
         "progress": "100",
         "url": "http://codigofacilito.com/courses/vuex",
-        "author":"Código Facilito"
+        "author":"Código Facilito",
+        "twitter":"@codigofacilito",
+        "twitterLink":"https://twitter.com/codigofacilito"
       },
       {
-        "title": "Curso de noSQL con MongoDB 🤩",
+        "title": "Curso noSQL con MongoDB 🤩",
         "progress": "100",
         "url": "http://codigofacilito.com/courses/nosql-moongodb",
-        "author":"Código Facilito"
+        "author":"Código Facilito",
+        "twitter":"@codigofacilito",
+        "twitterLink":"https://twitter.com/codigofacilito"
       },
       {
-        "title": "Crea un sitio personal con Gatsby 👨‍💻",
+        "title": "Crea sitio con Gatsby 👨‍💻",
         "progress": "100",
         "url": "http://codigofacilito.com/courses/sitio-persional-gatsby",
-        "author":"Código Facilito"
+        "author":"Código Facilito",
+        "twitter":"@codigofacilito",
+        "twitterLink":"https://twitter.com/codigofacilito"
       },
       {
-        "title": "Fundamentos de React 🎧",
+        "title": "Fundamentos de React 👨‍🏫",
         "progress": "100",
         "url": "http://codigofacilito.com/courses/react-intro-gratis",
-        "author":"Código Facilito"
+        "author":"Código Facilito",
+        "twitter":"@codigofacilito",
+        "twitterLink":"https://twitter.com/codigofacilito"
       }
     ],
     "finished_courses": []

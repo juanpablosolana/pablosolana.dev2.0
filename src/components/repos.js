@@ -12,6 +12,7 @@ function Datos() {
      if(data){
         myRepo = JSON.parse(data)
         setReposCount(myRepo.length)
+        myRepo=myRepo.slice(1,16)
         return setRepos(myRepo)
      }
     async function fetchRepos() {
@@ -21,6 +22,7 @@ function Datos() {
       })
       sessionStorage.setItem("repos",JSON.stringify(myRepo))
       setReposCount(myRepo.length)
+      myRepo = myRepo.slice(1, 16)
       setRepos(myRepo)
     }
     fetchRepos()
@@ -48,7 +50,7 @@ function Datos() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Ver en GitHub ({reposCount})
+          Ver todos en GitHub ({reposCount})
         </a>
       </div>
     </div>

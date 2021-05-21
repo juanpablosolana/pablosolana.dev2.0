@@ -6,32 +6,30 @@
       {
         "title": "React Summit Remote Edition 2021 ",
         "issuer": "GitNation",
+        "issuerImg":"https://res.cloudinary.com/stichting-frontend-amsterdam/image/upload/v1607938678/udg4i4bjvkhrhspof8bw.svg",
         "url": "https://certificate.page.link/NGtFLTLkehxKvR9x5",
         "img":"https://media-exp1.licdn.com/dms/image/C4E0BAQFPGBlbXg4GPA/company-logo_100_100/0/1553094908725?e=1629331200&v=beta&t=nBxhfTJ9Hc5EEDqiwhG7Cs7eWh3mNNNmPXh2SFj5Ryk"
       },
       {
         "title": "NDG Linux Unhatched course in the Cisco Networking Academy.",
         "issuer": "Network Development Group",
+        "issuerImg":"http://bp1.blogger.com/_l9s4mSg96tE/SDOlqDUMb6I/AAAAAAAAAAY/typ1ohD3AIQ/s320/logo.JPG",
         "url": "https://drive.google.com/file/d/1JaUzrEOO53OfzRQrcHobYX-p_TReFTXA/view?usp=sharing",
         "img":"https://media-exp1.licdn.com/dms/image/C4E0BAQHBq9_zTus0uw/company-logo_100_100/0/1583519288822?e=1629331200&v=beta&t=ZM5uugEHnyy8mvLvo1dFOeehQmd-JSKhkSqpVkC8qmU"
       },
       {
         "title": "Scrum Foundation Professional Certificate (SFPC) – (Spanish)",
         "issuer": "CertiProf",
+        "issuerImg":"https://images.credly.com/size/340x340/images/c2ddc533-ba6c-464d-a69d-f9f28177176b/CertiProf-Badge-SFPC.png",
         "url": "https://www.youracclaim.com/badges/62faa69e-33be-4a06-b35d-b3f33112ffcc?source=linked_in_profile",
         "img":"https://media-exp1.licdn.com/dms/image/C4D0BAQGqXl2RWLuR5A/company-logo_100_100/0/1609950615059?e=1629331200&v=beta&t=7sr4ApuFehnSkueY5Yr1nkoVshluQCGOcdHrnhq6TKk"
       },
       {
         "title": "Fundamentos de marketing digital",
         "issuer": "Google",
+        "issuerImg": "https://e.rpp-noticias.io/normal/2017/04/26/180518_393692.jpg",
         "url": "https://drive.google.com/file/d/0B9Z1TMBg7M4UYmMwTi0zcmdpQVE/view?usp=sharing",
-        "img":"https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_100_100/0/1519856215226?e=1629331200&v=beta&t=Xuz_3b8cN2hCV3ooqnF9gQ1fQFTkwHE2IPLNZuhhQ9I"
-      },
-      {
-        "title": "Conceptos básicos de marketing digital",
-        "issuer": "Google",
-        "url": "https://drive.google.com/file/d/1CbfuyV2UIySm-w6VJVH88nz_r7imq9QZ/view?usp=sharing",
-        "img":"https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_100_100/0/1519856215226?e=1629331200&v=beta&t=Xuz_3b8cN2hCV3ooqnF9gQ1fQFTkwHE2IPLNZuhhQ9I"
+        "img": "https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_100_100/0/1519856215226?e=1629331200&v=beta&t=Xuz_3b8cN2hCV3ooqnF9gQ1fQFTkwHE2IPLNZuhhQ9I"
       }
     ],
     "articles": [],

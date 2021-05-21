@@ -29,11 +29,14 @@ function Courses(){
           className="min-h-screen container mx-auto p-12 max-w-6xl "
           id="Cursos"
         >
-          <div className="text-center text-gray-100 ">
+          <div className="text-center">
             <h2 className="text-4xl font-bold">
-              Me preparo con los mejores
+              Parece magia, funciona con código.
             </h2>
-            <p className="p-4 ">Sin dudarlo ¡Te los recomiendo!</p>
+            <p className="p-4">
+              A lo largo de mi carrera como programador, he tenido el privilegio
+              de trabajar en proyectos retadores e increíbles.
+            </p>
           </div>
 
           <div className="grid grid-cols-3 transparente5">
@@ -44,23 +47,23 @@ function Courses(){
                   className="shadown p-8 bg-gray-100 mx-4 rounded my-4 text-center"
                 >
                   <h4 className="font-bold p-2 ">{courses.title}</h4>
-                    <span className="inline-block bg-yellow-500 p-2 rounded mb-0.5 bg-red-500 radius">
-                      <a
-                        href={courses.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Ir al curso de {courses.author}
-                      </a>
-                    </span>
+                  <span className="inline-block bg-yellow-500 p-2 rounded mb-0.5 bg-red-500 radius">
                     <a
-                      href={courses.twitterLink}
+                      href={courses.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-500"
                     >
-                      Seguir {courses.twitter}
+                      Ir al curso de {courses.author}
                     </a>
+                  </span>
+                  <a
+                    href={courses.twitterLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500"
+                  >
+                    Seguir {courses.twitter}
+                  </a>
                 </div>
               )
             })}

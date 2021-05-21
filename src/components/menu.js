@@ -1,6 +1,6 @@
 import React from 'react'
 const menu = () => (
-  <nav className="container mx-auto p-12 max-w-6xl">
+  <nav className="container mx-auto py-12 max-w-6xl">
     <div className="sm:flex justify-between">
       <a href="#hola" className="text-white text-3xl font-bold p-3">
         Pablo Solana
@@ -19,11 +19,6 @@ const menu = () => (
         <li className="sm:inline-block">
           <a href="#certificaciones" className="p-3 hover:text-red-500">
             Certificaciones
-          </a>
-        </li>
-        <li className="sm:inline-block">
-          <a href="#escuela" className="p-3 hover:text-red-500">
-            Educación
           </a>
         </li>
         <li className="sm:inline-block">

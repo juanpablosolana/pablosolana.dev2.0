@@ -6,7 +6,7 @@ const Menu = () => {
   const [isShowing, setIsShowing] = React.useState(false)
   return (
     <nav className="container max-w-6xl py-12 mx-auto">
-      <div className="justify-between sm:flex">
+      <div className="items-center justify-between sm:flex">
         <a href="#hola" className="p-3 text-3xl font-bold text-white">
           Pablo Solana
         </a>
@@ -122,14 +122,16 @@ const Menu = () => {
             </a>
           </li>
         </ul>
-        <a
-          href="https://firebasestorage.googleapis.com/v0/b/pablosolana-fd61e.appspot.com/o/docs%2FJuan%20Pablo%20Solana%20Ortiz%20JS.pdf?alt=media&token=1be1bf9a-b27f-4586-a7b2-de7e7c036b16"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-3 btn"
-        >
-          Descargar CV
-        </a>
+        <div>
+          <a
+            href="https://firebasestorage.googleapis.com/v0/b/pablosolana-fd61e.appspot.com/o/docs%2FJuan%20Pablo%20Solana%20Ortiz%20JS.pdf?alt=media&token=1be1bf9a-b27f-4586-a7b2-de7e7c036b16"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 btn"
+          >
+            Descargar CV
+          </a>
+        </div>
       </div>
     </nav>
   )

@@ -26,7 +26,7 @@ function Courses(){
     >
       <div className="transparente">
         <div
-          className="min-h-screen container mx-auto p-12 max-w-6xl "
+          className="container max-w-6xl min-h-screen p-12 mx-auto "
           id="Cursos"
         >
           <div className="text-center text-gray-100 ">
@@ -36,23 +36,24 @@ function Courses(){
             <p className="p-4 ">Sin dudarlo ¡Te los recomiendo!</p>
           </div>
 
-          <div className="grid grid-cols-3 transparente5">
+          <div className="grid grid-cols-1 transparente5 lg:grid-cols-3">
             {data.profileJson.data.courses.map(courses => {
               return (
                 <div
                   key={courses.title}
-                  className="shadown p-8 bg-gray-100 mx-4 rounded my-4 text-center"
+                  className="p-8 mx-4 my-4 text-center bg-gray-100 rounded shadown"
                 >
-                  <h4 className="font-bold p-2 ">{courses.title}</h4>
-                    <span className="inline-block bg-yellow-500 p-2 rounded mb-0.5 bg-red-500 radius">
-                      <a
-                        href={courses.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Ir al curso de {courses.author}
-                      </a>
-                    </span>
+                  <h4 className="p-2 font-bold ">{courses.title}</h4>
+                  <span className="inline-block bg-yellow-500 p-2 rounded mb-0.5 bg-red-500 radius">
+                    <a
+                      href={courses.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Ir al curso de {courses.author}
+                    </a>
+                  </span>
+                  <div>
                     <a
                       href={courses.twitterLink}
                       target="_blank"
@@ -61,6 +62,7 @@ function Courses(){
                     >
                       Seguir {courses.twitter}
                     </a>
+                  </div>
                 </div>
               )
             })}

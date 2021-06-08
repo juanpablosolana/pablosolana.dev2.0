@@ -1,11 +1,11 @@
-import React from 'react'
-const menu = () => (
-  <nav className="container mx-auto py-12 max-w-6xl">
-    <div className="sm:flex justify-between">
-      <a href="#hola" className="text-white text-3xl font-bold p-3">
+import React from "react"
+const Menu = () => (
+  <nav className="container max-w-6xl py-12 mx-auto">
+    <div className="justify-between sm:flex">
+      <a href="#hola" className="p-3 text-3xl font-bold text-white">
         Pablo Solana
       </a>
-      <ul className="text-yellow-500 sm:self-center text-xl border-2 sm:border-none">
+      <ul className="text-xl text-yellow-500 border-2 sm:self-center sm:border-none">
         <li className="sm:inline-block">
           <a href="#proyectos" className="p-3 hover:text-red-500">
             Proyectos
@@ -38,4 +38,4 @@ const menu = () => (
     </div>
   </nav>
 )
-export default menu
+export default Menu

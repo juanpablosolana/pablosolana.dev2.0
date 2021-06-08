@@ -18,14 +18,15 @@ textarea {
   @apply bg-black text-yellow-500 font-bold rounded py-2 px-8
 }
 
-.repos-list{
+
+.repos-list-m{
   columns:2;
   -moz-columns: 2;
   @apply p-4;
   column-rule: 1px solid red;
 }
 
-.repos-list {
+.repos-list-m {
   break-inside: avoid-column;
 }
 .transparente{

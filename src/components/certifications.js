@@ -21,28 +21,30 @@ function Certifiction(){
   return (
     <div className="bg-white " id="certificaciones">
       <div
-        className="min-h-screen container mx-auto p-12 max-w-6xl "
+        className="container max-w-6xl min-h-screen p-12 mx-auto "
         id="Cursos"
       >
         <div className="text-center">
-          <h2 className="text-4xl font-bold">Algunas de mis certificaciones </h2>
+          <h2 className="text-4xl font-bold">
+            Algunas de mis certificaciones{" "}
+          </h2>
           <p className="p-4 ">Siempre aprendiendo, siempre practicando</p>
         </div>
 
-        <div className="grid grid-rows-2 grid-flow-col mb-10">
+        <div className="grid grid-rows-2 mb-10 place-items-center lg:grid-flow-col lg:place-items-stretch">
           {data.profileJson.data.certificates.map(certificates => {
             return (
-              <div className="max-w-md w-full lg:flex p-2 mb-4 bg-black rounded-b lg:rounded-b-none lg:rounded-r">
+              <div className="w-full max-w-md p-2 mb-4 bg-black rounded-b lg:flex lg:rounded-b-none lg:rounded-r" key={certificates.img}>
                 <div
-                  className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                  className="flex-none h-48 overflow-hidden text-center bg-cover rounded-t lg:h-auto lg:w-48 lg:rounded-t-none lg:rounded-l"
                   style={{
                     backgroundImage: `url(${certificates.issuerImg})`,
                   }}
                   title="Imagen del certificado"
                 ></div>
-                <div className="bg-black rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div className="flex flex-col justify-between p-4 leading-normal bg-black rounded-b lg:rounded-b-none lg:rounded-r">
                   <div className="mb-8">
-                    <div className="text-yellow-500 font-bold text-xl mb-2">
+                    <div className="mb-2 text-xl font-bold text-yellow-500">
                       <a
                         href={certificates.url}
                         target="_blank"
@@ -54,7 +56,7 @@ function Certifiction(){
                   </div>
                   <div className="flex items-center">
                     <img
-                      className="w-10 h-10 rounded-full mr-4"
+                      className="w-10 h-10 mr-4 rounded-full"
                       src={certificates.img}
                       alt={certificates.title}
                     />

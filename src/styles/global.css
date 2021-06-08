@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 *{
   transition: all 0.3s ease;
   scroll-behavior: smooth;
@@ -37,3 +39,6 @@ textarea {
   background-color:rgba(0, 0, 0, 0.5)
 }
 
+.roboto{
+  font-family: 'Press Start 2P', cursive;
+}

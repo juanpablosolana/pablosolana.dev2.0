@@ -5,9 +5,12 @@ import { Transition } from "@headlessui/react"
 const Menu = () => {
   const [isShowing, setIsShowing] = React.useState(false)
   return (
-    <nav className="container max-w-6xl py-12 mx-auto">
-      <div className="items-center justify-between sm:flex">
-        <a href="#hola" className="p-3 text-3xl font-bold text-white">
+    <nav className="container max-w-6xl mx-auto lg:py-12">
+      <div className="inline-flex justify-between lg:items-center ">
+        <a
+          href="#hola"
+          className="p-3 text-4xl font-bold text-white roboto hover:text-yellow-500"
+        >
           Pablo Solana
         </a>
         <div className="lg:hidden">
@@ -53,15 +56,6 @@ const Menu = () => {
               <ul className="space-y-8 font-bold text-center font-roboto">
                 <li>
                   <a
-                    href="#home"
-                    className="p-3 hover:text-red-500"
-                    onClick={() => setIsShowing(!isShowing)}
-                  >
-                    Inicio
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="#proyectos"
                     className="p-3 hover:text-red-500"
                     onClick={() => setIsShowing(!isShowing)}
@@ -96,6 +90,16 @@ const Menu = () => {
                     Contacto
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://firebasestorage.googleapis.com/v0/b/pablosolana-fd61e.appspot.com/o/docs%2FJuan%20Pablo%20Solana%20Ortiz%20JS.pdf?alt=media&token=1be1bf9a-b27f-4586-a7b2-de7e7c036b16"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 btn"
+                  >
+                    Descargar CV
+                  </a>
+                </li>
               </ul>
             </div>
           </Transition>
@@ -121,17 +125,17 @@ const Menu = () => {
               Contacto
             </a>
           </li>
+          <li>
+            <a
+              href="https://firebasestorage.googleapis.com/v0/b/pablosolana-fd61e.appspot.com/o/docs%2FJuan%20Pablo%20Solana%20Ortiz%20JS.pdf?alt=media&token=1be1bf9a-b27f-4586-a7b2-de7e7c036b16"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 btn hover:text-black"
+            >
+              Descargar CV
+            </a>
+          </li>
         </ul>
-        <div>
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/pablosolana-fd61e.appspot.com/o/docs%2FJuan%20Pablo%20Solana%20Ortiz%20JS.pdf?alt=media&token=1be1bf9a-b27f-4586-a7b2-de7e7c036b16"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-3 btn"
-          >
-            Descargar CV
-          </a>
-        </div>
       </div>
     </nav>
   )

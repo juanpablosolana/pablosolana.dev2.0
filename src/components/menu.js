@@ -6,10 +6,10 @@ const Menu = () => {
   const [isShowing, setIsShowing] = React.useState(false)
   return (
     <nav className="container max-w-6xl mx-auto lg:py-12">
-      <div className="inline-flex justify-between lg:items-center ">
+      <div className="inline-flex justify-around lg:items-center ">
         <a
           href="#hola"
-          className="p-3 text-4xl font-bold text-white roboto hover:text-yellow-500"
+          className="p-3 text-xl font-bold text-yellow-500 roboto hover:text-yellow-500 lg:text-white lg:text-4xl "
         >
           Pablo Solana
         </a>
@@ -83,7 +83,7 @@ const Menu = () => {
                 </li>
                 <li>
                   <a
-                    href="#Contacto"
+                    href="#contacto"
                     className="p-3 hover:text-red-500"
                     onClick={() => setIsShowing(!isShowing)}
                   >
@@ -96,6 +96,7 @@ const Menu = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 btn"
+                    onClick={() => setIsShowing(!isShowing)}
                   >
                     Descargar CV
                   </a>
@@ -121,7 +122,7 @@ const Menu = () => {
             </a>
           </li>
           <li className="sm:inline-block">
-            <a href="#Contacto" className="p-3 hover:text-red-500">
+            <a href="#contacto" className="p-3 hover:text-red-500">
               Contacto
             </a>
           </li>

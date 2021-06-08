@@ -22,7 +22,6 @@ function Certifiction(){
     <div className="bg-white " id="certificaciones">
       <div
         className="container max-w-6xl min-h-screen p-12 mx-auto "
-        id="Cursos"
       >
         <div className="text-center">
           <h2 className="text-4xl font-bold">

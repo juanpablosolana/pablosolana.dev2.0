@@ -28,7 +28,10 @@ function Datos() {
     fetchRepos()
   }, [])
   return (
-    <div className=" min-h-screen container mx-auto p-12 max-w-6xl " id="proyectos">
+    <div
+      className="container max-w-6xl min-h-screen p-12 mx-auto "
+      id="proyectos"
+    >
       <div className="text-center">
         <h2 className="text-4xl font-bold">
           Parece magia, funciona con código.
@@ -38,7 +41,7 @@ function Datos() {
           trabajar en proyectos retadores e increíbles.
         </p>
       </div>
-      <ul className="repos-list">
+      <ul className={window.innerWidth < 1280 ? "repos-list-m": "repos-list"}>
         {repos.map(repo => {
           return <Repo repo={repo} key={repo.id} />
         })}

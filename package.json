@@ -16,6 +16,7 @@
   "dependencies": {
     "@headlessui/react": "^1.2.0",
     "firebase": "^8.6.2",
+    "framer-motion": "^4.1.17",
     "gatsby": "^3.5.0",
     "gatsby-source-filesystem": "^3.5.0",
     "gatsby-transformer-json": "^3.5.0",

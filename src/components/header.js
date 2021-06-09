@@ -1,6 +1,7 @@
 import React from "react"
 import Menu from "./menu"
 import profile from "../img/profile.png"
+import { motion } from "framer-motion"
 // import Form from "./form"
 const Header = () => (
   <header className="min-h-screen bg-black " id="hola">
@@ -19,7 +20,10 @@ const Header = () => (
             las personas.
           </p>
         </div>
-        <img
+
+        <motion.img
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 1.0 }}
           src={profile}
           alt="Imagen de Juan Pablo Solana Ortiz"
           style={{ height: "350px" }}

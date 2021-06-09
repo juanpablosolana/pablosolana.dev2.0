@@ -41,7 +41,7 @@ function Datos() {
           trabajar en proyectos retadores e increíbles.
         </p>
       </div>
-      <ul className={window.innerWidth < 1280 ? "repos-list-m": "repos-list"}>
+      <ul className="repos-list">
         {repos.map(repo => {
           return <Repo repo={repo} key={repo.id} />
         })}

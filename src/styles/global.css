@@ -8,8 +8,12 @@
   scroll-behavior: smooth;
 }
 
-textarea {
+textarea, input {
+  display:block;
   resize: none;
+  margin: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn{

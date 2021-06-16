@@ -1,11 +1,46 @@
-import React, { useState, useEffect} from "react"
-const Menu = () => {
-const [url, setUrl] = useState(null)
+import React from "react"
+// import { useLocation } from "react-router-dom"
+import { useForm } from "react-hook-form";
 
- function handleSubmit(e) {
-   e.preventDefault()
-   console.log("You clicked submit.")
- }
+const Menu = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm()
+  const onSubmit = (data) =>
+
+  {const $form = document.querySelector(".contact-form"),
+    $loader = document.querySelector(".contact-form-loader"),
+    $response = document.querySelector(".contact-form-response")
+     $form.addEventListener("submit", e => {
+       e.preventDefault()
+       $loader.classList.remove("none")
+       fetch("https://formsubmit.co/ajax/me.pablosolana@altmails.com", {
+         method: "POST",
+         body: data,
+       })
+         .then(res => (res.ok ? res.json() : Promise.reject(res)))
+         .then(json => {
+           console.log(json)
+           window.location.hash = "#gracias"
+           $form.reset()
+         })
+         .catch(err => {
+           console.log(err)
+           let message =
+             err.statusText || "Ocurrió un error al enviar, intenta nuevamente"
+           $response.querySelector(
+             "h3"
+           ).innerHTML = `Error ${err.status}: ${message}`
+         })
+         .finally(() => {
+           $loader.classList.add("none")
+           setTimeout(() => {
+             window.location.hash = "#close"
+           }, 3000)
+         })
+     })}
 
   return (
     <div
@@ -14,7 +49,10 @@ const [url, setUrl] = useState(null)
     >
       <div className="transparente">
         <div className="container max-w-6xl mx-auto my-auto ">
-          <form className="max-w-md p-2 mx-auto bg-black contact-form">
+          <form
+            className="max-w-md p-2 mx-auto bg-black contact-form"
+            onSubmit={handleSubmit(onSubmit)}
+          >
             <div className="text-center text-yellow-500">
               <h2 className="text-4xl font-bold ">Contacto</h2>
               <p className="p-4 text-white">
@@ -26,16 +64,17 @@ const [url, setUrl] = useState(null)
               type="text"
               name="name"
               placeholder=" Ingresa tu nombre"
-              id=""
-              title="Nombre"
+              id="name"
+              {...register("Nombre")}
               patter="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
               className="w-4/5"
               required
             />
             <input
               type="email"
+              {...register("email")}
               name="email"
-              id=""
+              id="email"
               placeholder=" No olvides tu correo"
               title="email no valido"
               pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
@@ -43,7 +82,9 @@ const [url, setUrl] = useState(null)
               required
             />
             <textarea
-              name="coments"
+            name="coments"
+            id="coments"
+              {...register("coments")}
               cols="50"
               rows="10"
               placeholder=" Platicame de tus ideas de desarrollo "
@@ -51,6 +92,7 @@ const [url, setUrl] = useState(null)
               required
             />
             <div className="contact-form-loader">
+              {errors.exampleRequired && <span>This field is required</span>}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="38"

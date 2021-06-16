@@ -20,9 +20,7 @@ function Certifiction(){
 
   return (
     <div className="bg-white " id="certificaciones">
-      <div
-        className="container max-w-6xl min-h-screen p-12 mx-auto "
-      >
+      <div className="container max-w-6xl min-h-screen p-12 mx-auto">
         <div className="text-center">
           <h2 className="text-4xl font-bold">
             Algunas de mis certificaciones{" "}
@@ -61,7 +59,7 @@ function Certifiction(){
                     />
 
                     <div className="text-sm">
-                      <p class="text-white leading-none">
+                      <p className="leading-none text-white">
                         {certificates.issuer}
                       </p>
                     </div>

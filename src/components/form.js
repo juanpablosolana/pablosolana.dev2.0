@@ -8,13 +8,10 @@ const Menu = () => {
     handleSubmit,
     formState: { errors },
   } = useForm()
-  const onSubmit = (data) =>
-
-  {const $form = document.querySelector(".contact-form"),
-    $loader = document.querySelector(".contact-form-loader"),
-    $response = document.querySelector(".contact-form-response")
-     $form.addEventListener("submit", e => {
-       e.preventDefault()
+  const onSubmit = (data) =>{
+    const $form = document.querySelector(".contact-form"),
+      $loader = document.querySelector(".contact-form-loader"),
+      $response = document.querySelector(".contact-form-response")
        $loader.classList.remove("none")
        fetch("https://formsubmit.co/ajax/me.pablosolana@altmails.com", {
          method: "POST",
@@ -40,7 +37,7 @@ const Menu = () => {
              window.location.hash = "#close"
            }, 3000)
          })
-     })}
+     }
 
   return (
     <div
@@ -132,7 +129,8 @@ const Menu = () => {
               <i className="fas fa-bell" />
             </span>
             <span className="inline-block mr-8 align-middle">
-              <b className="capitalize">¡Enviado! </b> En breve me pongo en contacto contigo 🔥
+              <b className="capitalize">¡Enviado! 👌</b> En breve estaremos en
+              contacto 🎆 🔥
             </span>
             <button className="absolute top-0 right-0 mt-4 mr-6 text-2xl font-semibold leading-none bg-transparent outline-none focus:outline-none">
               <span>×</span>

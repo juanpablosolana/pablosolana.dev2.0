@@ -1,14 +1,16 @@
 import React from "react"
 import Menu from "./menu"
 import profile from "../img/profile.png"
-// import { motion } from "framer-motion"
-import ParticlesBg from "particles-bg"
+import { motion } from "framer-motion"
+// import ParticlesBg from "particles-bg"
+
 
 const Header = () => {
   return (
     <>
-      <ParticlesBg num={250} type="lines" bg={true} />
-      <header className="min-h-screen transparente5" id="hola">
+      {/* <ParticlesBg num={250} type="random" bg={true} /> */}
+
+      <header className="min-h-screen bg-black" id="hola">
         <Menu />
 
         <div className="container max-w-6xl mx-auto ">
@@ -26,14 +28,14 @@ const Header = () => {
               </p>
             </div>
 
-            {/* <motion.img
+            <motion.img
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 1.0 }}
               src={profile}
               alt="Imagen de Juan Pablo Solana Ortiz"
               style={{ height: "350px" }}
               className="pb-3 rounded-full lg:rounded-lg"
-            /> */}
+            />
           </div>
           <div className="text-yellow-500">
             <a href="#proyectos" className="p-3 hover:text-red-500">

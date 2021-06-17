@@ -128,7 +128,7 @@ const Menu = () => {
         <div className="py-4">
           <div className="grid items-center grid-cols-4 text-center ">
             <a
-              href="mailto:juanpablosolana@gmail.com"
+              href="mailto:hola@pablosolana.dev"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -9,14 +9,15 @@ const Menu = () => {
     formState: { errors },
   } = useForm()
   const onSubmit = (data) =>{
-    console.log(data)
+
     const $form = document.querySelector(".contact-form"),
       $loader = document.querySelector(".contact-form-loader"),
       $response = document.querySelector(".contact-form-response")
        $loader.classList.remove("none")
+          console.log($form)
        fetch("https://formsubmit.co/ajax/me.pablosolana@altmails.com", {
          method: "POST",
-         body: data
+         body: new FormData($form),
        })
          .then(res => (res.ok ? res.json() : Promise.reject(res)))
          .then(json => {
@@ -125,7 +126,7 @@ const Menu = () => {
           />
         </form>
         <div className="py-4">
-          <div className="grid items-center grid-cols-1 text-center lg:grid-cols-4">
+          <div className="grid items-center grid-cols-4 text-center ">
             <a
               href="mailto:juanpablosolana@gmail.com"
               target="_blank"
@@ -198,7 +199,7 @@ const Menu = () => {
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 512 512"
                 height="30"
                 width="30"

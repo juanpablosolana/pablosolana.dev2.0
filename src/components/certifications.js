@@ -16,7 +16,7 @@ function Certifiction(){
      }
    }
  `)
-// console.log(data)
+
 
   return (
     <div className="bg-white " id="certificaciones">

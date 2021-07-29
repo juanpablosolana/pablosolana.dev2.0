@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Transition } from "@headlessui/react"
 
-
 const Menu = () => {
   const [isShowing, setIsShowing] = React.useState(false)
   return (
@@ -92,7 +91,7 @@ const Menu = () => {
                 </li>
                 <li>
                   <a
-                    href="https://firebasestorage.googleapis.com/v0/b/pablosolana-fd61e.appspot.com/o/docs%2FJuan%20Pablo%20Solana%20Ortiz%20JS.pdf?alt=media&token=1be1bf9a-b27f-4586-a7b2-de7e7c036b16"
+                    href="https://firebasestorage.googleapis.com/v0/b/pablosolana-fd61e.appspot.com/o/docs%2FPablo%20Solana.pdf?alt=media&token=ef472494-b0df-4843-85ab-e09cf7f06c80"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 btn"

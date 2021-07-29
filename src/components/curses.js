@@ -1,5 +1,6 @@
 import { useStaticQuery, graphql } from 'gatsby'
 import React from 'react'
+
 function Courses(){
  const data = useStaticQuery(graphql`
    {
@@ -17,7 +18,7 @@ function Courses(){
      }
    }
  `)
-// console.log(data)
+
 
   return (
     <div

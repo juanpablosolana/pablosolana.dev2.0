@@ -2,17 +2,12 @@ import React from "react"
 import Menu from "./menu"
 import profile from "../img/profile.png"
 import { motion } from "framer-motion"
-// import ParticlesBg from "particles-bg"
-
 
 const Header = () => {
   return (
-    <>
-      {/* <ParticlesBg num={250} type="random" bg={true} /> */}
-
-      <header className="min-h-screen bg-black" id="hola">
+      <>
+        <header className="min-h-screen bg-black" id="hola">
         <Menu />
-
         <div className="container max-w-6xl mx-auto ">
           <div className="grid items-center justify-center grid-rows-1 place-items-center lg:flex">
             <div className="flex-1 text-center">
@@ -27,7 +22,6 @@ const Header = () => {
                 atraen a las personas
               </p>
             </div>
-
             <motion.img
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 1.0 }}
